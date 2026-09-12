@@ -1,5 +1,40 @@
-list1=[1,2,3,4,5]
-a=list1[0]
-list1[0] = list1 [-1]
-list1 [-1] = a
-print(list1)
+import turtle
+t = turtle.Turtle()
+t.goto(50, 100)
+t.goto(100, 0)
+t.penup()
+t.goto(25, 50)
+t.pendown()
+t.goto(75, 50)
+
+t.penup()
+t.goto(130, 0)
+t.pendown()
+t.goto(130, 100)
+t.goto(180, 100)
+t.goto(180, 50)
+t.goto(130, 50)
+t.goto(180, 0)
+
+t.penup()
+t.goto(210, 0)
+t.pendown()
+t.goto(210, 100)
+t.goto(250, 50)
+t.goto(290, 100)
+t.goto(290, 0)
+
+t.penup()
+t.goto(320, 0)
+t.pendown()
+t.goto(350, 100)
+t.goto(380, 0)
+
+t.penup()
+t.goto(410, 0)
+t.pendown()
+t.goto(410, 100)
+t.goto(460, 0)
+t.goto(460, 100)
+
+turtle.done()
